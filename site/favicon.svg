@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="TaxDrop">
+<rect x="0" y="0" width="64" height="64" rx="12" fill="#0e1217"></rect>
+<g transform="translate(8 8) scale(0.5)">
+<path d="M20 10H76V80L70 86L64 80L58 86L52 80L46 86L40 80L34 86L28 80L20 86Z" fill="#19e3a8"></path>
+<rect x="31" y="24" width="34" height="9" rx="4.5" fill="#0e1217"></rect>
+<rect x="31" y="40" width="24" height="9" rx="4.5" fill="#0e1217"></rect>
+<rect x="31" y="56" width="29" height="9" rx="4.5" fill="#0e1217"></rect>
+</g>
+</svg>

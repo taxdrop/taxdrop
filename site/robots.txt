@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://taxdrop.com.br/sitemap.xml
