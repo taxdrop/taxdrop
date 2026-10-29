@@ -10,6 +10,14 @@
     marcar();
   }
 
+  // Página de agradecimento da enquete: mostra só a linha da resposta escolhida (?r=…). Não guarda nem envia nada.
+  var resposta = new URLSearchParams(window.location.search).get('r');
+  if (resposta && /^[a-z-]{1,40}$/.test(resposta)) {
+    document.querySelectorAll('[data-r]').forEach(function (el) {
+      if (el.getAttribute('data-r') === resposta) el.hidden = false;
+    });
+  }
+
   // Inscrição no Kit: tenta sem sair da página; se não der, envia o formulário normalmente.
   document.querySelectorAll('form[data-kit]').forEach(function (form) {
     form.addEventListener('submit', function (e) {
