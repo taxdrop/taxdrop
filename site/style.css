@@ -1,4 +1,4 @@
-/* TaxDrop — site (v4.7, 28/10/2026; pílulas do herói na letra do corpo, decisão 4.20; Card 5 v10). Tokens do Card 5; leitura em primeiro lugar. Base: v3 aprovada em 14/10. */
+/* TaxDrop — site (v4.8, 28/10/2026; herói na edição 1 v4.2 e "Na fonte" discreto, decisão 4.21; Card 5 v11; pílulas na letra do corpo, 4.20). Tokens do Card 5; leitura em primeiro lugar. Base: v3 aprovada em 14/10. */
 
 @font-face { font-family: "Bricolage Grotesque"; font-weight: 700; font-style: normal; font-display: swap; src: url("/fonts/bricolage-grotesque-latin-700-normal.woff2") format("woff2"); }
 @font-face { font-family: "Bricolage Grotesque"; font-weight: 800; font-style: normal; font-display: swap; src: url("/fonts/bricolage-grotesque-latin-800-normal.woff2") format("woff2"); }
@@ -168,8 +168,8 @@ h1, h2, h3 { font-family: var(--f-titulo); font-weight: 800; letter-spacing: -0.
 .email .pil { display: inline-block; font: 600 12px/1 var(--f-email); letter-spacing: .08em; text-transform: uppercase; color: var(--selo-tinta); background: var(--selo-suave); padding: 2px 7px; border-radius: 4px; }
 .email .ficha-erro { border: 1px solid var(--linha); border-left: 3px solid var(--alerta); border-radius: 8px; padding: 10px 12px 4px; }
 .email .ficha-erro .pil { color: var(--alerta-tinta); background: transparent; padding-left: 0; }
-.email .na-fonte { font-size: .78rem; }
-.email .na-fonte a { text-decoration: none; font-weight: 600; }
+.email .na-fonte { font-size: .78rem; font-weight: 400; line-height: 1.45; color: var(--tinta-suave); }
+.email .na-fonte a { color: inherit; font-weight: 400; text-decoration: underline; text-decoration-thickness: 1px; }
 .email .caixa-erro { border: 1px solid var(--linha); border-left: 3px solid var(--alerta); border-radius: 8px; padding: 8px 10px; margin: 0 0 .7em; }
 .email sup, .edicao sup { font-size: .7em; line-height: 0; }
 .email .nota-mini { font-size: .72rem; color: var(--tinta-suave); border-top: 1px solid var(--linha); padding-top: 8px; margin-top: 12px; }
